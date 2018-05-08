@@ -66,13 +66,31 @@
       .announce .body textarea {
         width: 100%;
       }
+      .more-link a {
+        padding-right: 10px;
+        position: relative;
+      }
+      .more-link a i:first-child {
+        position: absolute;
+        right: -9px;
+      }
+      .more-link a i:last-child {
+        position: absolute;
+        right: -13px;
+      }
     </style>
   </head>
   <body>
     <div class="announce">
       <div class="header">
         <span class="tag-log">通知公告</span>
-        <span class="more-link"><a href='http://www.baidu.com'>更多</a></span>
+        <span class="more-link">
+          <a href='http://www.baidu.com' class="see-more">
+            更多
+            <i class="glyphicon glyphicon-menu-right"></i>
+            <i class="glyphicon glyphicon-menu-right"></i>
+          </a>
+        </span>
         <span class="line"></span>
       </div>
       <div class="body">
